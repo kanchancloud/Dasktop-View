@@ -1,0 +1,78 @@
+
+.Breadcrumbs_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.MapIcon {
+    color: #fffefe;
+    padding: 20px 10px;
+}
+
+.Title_wrap {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0px 9%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0px;
+    /*padding: 0px 125px;*/
+}
+.mapWrap{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 98px;
+    color: #fffefe;
+}
+.mapWrap a{
+    text-decoration: none;
+    color:#fffefe;
+}
+
+.map_wrap span {
+    font-size: 10px;
+
+}
+.breadcrumb_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.mapAddWrapper {
+    display: flex;
+    padding: 2px 21px;
+}
+
+.successIcon {
+    color: #33b633;
+    padding: 20px 10px;
+}
+.ratingWrapper{
+    display: flex;
+}
+
+.rating_Icon {
+    color: #fffefe;
+    padding: 20px 10px;
+}
+.GstWrap{
+    display: flex;
+    padding: 2px 21px;
+}
+
+.star_Icon {
+    color: gold;
+    padding: 20px 10px;
+}
+.Logo{
+    width: 10%;
+    margin: -149px 0px 0px 72%;
+
+}
+.HomeTaps_Wrapper{
+    margin:2% 2%;
+    border-radius: 4px;
+}
