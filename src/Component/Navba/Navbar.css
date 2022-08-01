@@ -1,0 +1,86 @@
+.Header_wrapper {
+    background-color: darkred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    padding: 0px 10%;
+}
+
+.Icon {
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin: 26px 40px;;
+    border-radius: 3px;
+}
+
+.Company_Name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fffefe;
+    padding: 30px 20px;
+}
+
+.Manu_wrapper {
+    padding: 30px 49px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.Manu {
+    color: #fffefe;
+    padding: 0px 30px;
+}
+
+.Manu_wrapper a {
+    text-decoration: none;
+}
+
+.auth_wrap {
+    display: flex;
+    padding: 30px 20px;
+    color: #fffefe;
+}
+
+.auth_wrap a {
+    text-decoration: none;
+}
+
+.Login {
+    color: #fffefe;
+    padding: 0px 20px;
+}
+
+.Profile_Icon {
+    /*padding: 0px 10px;*/
+    height: 23px;
+    width: 23px;
+    color: #fffefe;
+    gap: 20px;
+}
+
+.MainPageWraps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header_wrapper {
+        max-width: 100%;
+        padding: 0px 10%;
+
+    }
+
+    .Icon {
+        background-color: white;
+        height: 20px;
+        width: 20px;
+        color: white;
+        margin: 26px 40px;;
+        border-radius: 3px;
+    }
+}

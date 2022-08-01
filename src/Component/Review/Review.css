@@ -1,0 +1,84 @@
+.side {
+    float: left;
+    width: 13%;
+    margin-top: 2px;
+    display: flex;
+}
+.bar-container{
+    border-radius: 6px;
+
+}
+.bar-5,.bar-4,.bar-3,.bar-2,.bar-1{
+    border-radius: 6px;
+    width: 400px;
+}
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+}
+.right {
+    text-align: right;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+.ReviewWrap{
+    max-width: 577px;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    /*margin-right: 25px;*/
+}
+.FUllReview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 11%;
+}
+.Number_Review{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0px 20px;
+}
+.StarWrap{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.StarWrap span{
+    padding: 0px 20px;
+}
+.ButtonWrap{
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+@media (max-width: 400px) {
+    .side, .middle {
+        width: 100%;
+    }
+    .right {
+        display: none;
+    }
+}
+
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}

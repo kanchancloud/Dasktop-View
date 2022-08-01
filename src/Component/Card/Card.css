@@ -1,0 +1,60 @@
+
+.CardWrap {
+    /*width: 16rem;*/
+    border: 2px solid #a49f9f;
+    border-radius: 8px;
+    /*margin-left: 20px;*/
+
+}
+
+/*.CardWrapper {*/
+/*    display: flex;*/
+/*    width: 20%;*/
+/*    height: 20%;*/
+/*}*/
+
+/*.Title {*/
+/*    padding: 26px 0px;*/
+/*}*/
+
+.CardWrapper a {
+    color: black;
+}
+
+/*.CardPrice {*/
+/*    margin: 0px 0px 0px 128px;*/
+/*    font-weight: 500;*/
+/*    padding-bottom: 10px;*/
+/*    color: darkred;*/
+/*}*/
+
+/*.CardPrice span {*/
+/*    font-size: 14px;*/
+/*    color: gray;*/
+/*}*/
+
+.Contact_supplier {
+    border: 2px solid #a49f9f;
+    padding: 10px 65px;
+    /*margin-bottom: 5px;*/
+    border-bottom: 12px solid darkred;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact_supplier a {
+    text-decoration: none;
+    color: black;
+    /*padding: 0px 55px;*/
+}
+.aboutsWrap{
+    display: flex;
+    flex-direction: column;
+}
+
+

@@ -1,14 +1,15 @@
 import React from 'react';
 import {Carousel, Card, Stack, Button} from "react-bootstrap";
-import {reviews} from "./reviews"
+import {reviews} from "./reviews";
+import "./product.css"
 
 const CardProduct = () => {
     return (
-        <div>
-            <div className="PharmaLinkWrap">
-                <a href="#" className="PharmaLink">View all products by Chemzone Pharma</a>
-            </div>
-            <div className="bg-dark bg-opacity-25 container-fluid">
+        <div className="cardsImageWrap">
+            <div className="bg-light bg-opacity-25 container-fluid">
+                <div className="PharmaLinkWrap">
+                    <a href="#" className="PharmaLink">View all products by Chemzone Pharma</a>
+                </div>
                 <Carousel style={{height: 500}}>
                     {
                         reviews.map((e) => {
@@ -20,22 +21,34 @@ const CardProduct = () => {
                                         gap={3}
                                     >
                                         <Card style={{width: "18rem"}}>
-                                            <Card.Body>
-                                                <Card.Img src={e.image}/>
+                                            <Card.Body className="CarImgWrapper" >
+                                                <Card.Img src={e.image} style={{width:"80%", height:"80%"}}/>
                                                 <Card.Title>{e.title}</Card.Title>
                                             </Card.Body>
                                         </Card>
 
                                         <Card style={{width: "18rem"}}>
-                                            <Card.Body>
-                                                <Card.Img src={e.image}/>
+                                            <Card.Body className="CarImgWrapper" >
+                                                <Card.Img src={e.image} style={{width:"80%", height:"80%"}}/>
                                                 <Card.Title>{e.title}</Card.Title>
                                             </Card.Body>
                                         </Card>
 
                                         <Card style={{width: "18rem"}}>
-                                            <Card.Body>
-                                                <Card.Img src={e.image}/>
+                                            <Card.Body className="CarImgWrapper" >
+                                                <Card.Img src={e.image} style={{width:"80%", height:"80%"}}/>
+                                                <Card.Title>{e.title}</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                        <Card style={{width: "18rem"}}>
+                                            <Card.Body className="CarImgWrapper" >
+                                                <Card.Img src={e.image} style={{width:"80%", height:"80%"}}/>
+                                                <Card.Title>{e.title}</Card.Title>
+                                            </Card.Body>
+                                        </Card>
+                                        <Card style={{width: "18rem"}}>
+                                            <Card.Body className="CarImgWrapper" >
+                                                <Card.Img src={e.image} style={{width:"80%", height:"80%"}}/>
                                                 <Card.Title>{e.title}</Card.Title>
                                             </Card.Body>
                                         </Card>

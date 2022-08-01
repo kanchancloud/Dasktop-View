@@ -1,0 +1,33 @@
+.HomeTap_Wrapper {
+    background-color: lightgray;
+    border-radius: 4px;
+    /*padding: 10px 0px;*/
+    color: black;
+    display: flex;
+}
+
+.HomeTap_Wrapper a {
+    text-decoration: none;
+    color: black;
+}
+
+.HomeTap:active {
+    background-color: darkred;
+}
+
+.Home{
+    background-color: #6c0909;
+    padding: 10px 56px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.Products,.About{
+    padding: 10px 56px;
+    display: flex;
+    align-items: center;
+}
+.HomeTap_Wrap{
+    display: flex;
+    justify-content: center;
+}

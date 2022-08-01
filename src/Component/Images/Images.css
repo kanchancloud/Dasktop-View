@@ -1,0 +1,43 @@
+.image_Wrapper {
+    display: flex;
+    width: 50%;
+    height: 50%;
+}
+.Carousel_Wrapper{
+    height: 60%;
+    border-bottom: 1px solid #fdfdfd;
+}
+
+.imgs {
+    width: 20%;
+    height: 20%;
+}
+
+.faviImg {
+    width: 20%;
+    height: 20%;
+}
+
+.CaroImg {
+    width: 20%;
+    height: 20%;
+}
+.CaroImg{
+    width: 20%;
+    height: 100%;
+}
+
+.PharmaLink {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.PharmaLinkWrap {
+    margin: 5px 0px;
+}
+
+.PharmaLinkWrap a {
+    text-decoration: none;
+    color: black;
+}

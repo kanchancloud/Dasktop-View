@@ -4,10 +4,12 @@ import {BsCheckCircleFill} from "react-icons/bs";
 import {BsHandThumbsUpFill} from "react-icons/bs";
 import {BsStarFill} from "react-icons/bs";
 import {Link} from "react-router-dom";
-import "./MapPage.css"
+import "./MainPage.css"
 import HomeTap from "../HomeTaps/HomeTap";
+import CardPage from "../Card/Card";
+import About from "../Menu/about/About";
 
-const MapPage = () => {
+const MainPage = () => {
     return (
         <>
             <div style={{
@@ -23,7 +25,7 @@ const MapPage = () => {
                 </p>
                 <div className="mapWrap">
                     <Link to="#" className="mapAddWrapper">
-                        <FaMapMarkerAlt className="MapIcon"/>
+                        <FaMapMarkerAlt className="MapIcon" style={{color:"white"}}/>
                         <p>Panchkula haryana </p>
                     </Link>
                     <Link to="#" className="GstWrap">
@@ -47,9 +49,15 @@ const MapPage = () => {
             <div className="HomeTaps_Wrapper">
                 <HomeTap/>
             </div>
+            <div className="CardsWrapper">
+                <CardPage/>
+            </div>
+            <div>
+                <About/>
+            </div>
         </>
     )
         ;
 };
 
-export default MapPage;
+export default MainPage;
