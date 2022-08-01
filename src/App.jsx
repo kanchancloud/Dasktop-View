@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from "./Component/Navba/Navbar";
 import {BrowserRouter, Route,Routes} from "react-router-dom";
-import Home from "./Component/Menu/Home/Home";
+import Home from "./Component/Menu/HomePage/Home";
 import Blog from "./Component/Menu/Blog/Blog";
 import Distributors from "./Component/Menu/Distributors/Distributors";
 import Manufacturers from "./Component/Menu/Manufacturers/Manufacturers";
