@@ -1,7 +1,6 @@
 import React from 'react';
 import "./About.css"
-import MainIcon from "../../Icons/MainIcon";
-import Iamges from "../../Images/Iamges";
+import MainIcon from "../../Iconses/MainIcon";
 
 const About = () => {
     return (

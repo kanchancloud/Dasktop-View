@@ -9,9 +9,9 @@ import Product from "./Component/Menu/Product/Product";
 import LoginPage from "./Auth/LoginPage"
 import HomeTap from "./Component/HomeTaps/HomeTap";
 import CardPage from "./Component/Card/Card";
-import Iamges from "./Component/Images/Iamges";
+import Iamges from "./Component/Imageses/Iamges";
 import CardProduct from "./Component/Product/CardProduct";
-import Reviews from "./Component/Review/Reviews";
+import Reviews from "./Component/Reviewes/Reviews";
 
 function App() {
     return (
@@ -21,7 +21,6 @@ function App() {
                     <Route path="/" element={<Navbar/>}/>
                     <Route path="Home" element={<Home/>}/>
                     <Route path="Blog" element={<Blog/>}/>
-                    {/*<Route path="About" element={<About/>}/>*/}
                     <Route path="Distributors" element={<Distributors/>}/>
                     <Route path="Manufacturers" element={<Manufacturers/>}/>
                     <Route path="Product" element={<Product/>}/>
