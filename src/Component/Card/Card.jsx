@@ -27,7 +27,7 @@ const CardPage = () => {
                                                       style={{paddingTop: "26px", fontSize: "20px"}}>{e.Title}</Link>
                                             </div>
                                             <p style={{
-                                                marginLeft: "60%", fontWeight: "500", paddingBottom: "10px",
+                                                marginLeft: "42%", fontWeight: "500", paddingBottom: "10px",
                                                 color: "darkred", fontSize: "25px"
                                             }}>{e.price}
                                                 <span style={{
@@ -47,7 +47,7 @@ const CardPage = () => {
                                                       style={{paddingTop: "26px", fontSize: "20px"}}>{e.Title}</Link>
                                             </div>
                                             <p style={{
-                                                marginLeft: "60%",
+                                                marginLeft: "42%",
                                                 fontWeight: "500",
                                                 paddingBottom: "10px",
                                                 color: "darkred",
@@ -70,7 +70,7 @@ const CardPage = () => {
                                                       style={{paddingTop: "26px", fontSize: "20px"}}>{e.Title}</Link>
                                             </div>
                                             <p style={{
-                                                marginLeft: "60%",
+                                                marginLeft: "42%",
                                                 fontWeight: "500",
                                                 paddingBottom: "10px",
                                                 color: "darkred",
@@ -92,7 +92,7 @@ const CardPage = () => {
                                                       style={{paddingTop: "26px", fontSize: "20px"}}>{e.Title}</Link>
                                             </div>
                                             <p style={{
-                                                marginLeft: "60%",
+                                                marginLeft: "42%",
                                                 fontWeight: "500",
                                                 paddingBottom: "10px",
                                                 color: "darkred",
